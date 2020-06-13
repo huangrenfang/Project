@@ -1,0 +1,677 @@
+div,span{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+    font-size: 0px;
+    overflow: hidden;
+    height: 0px;
+}
+.el-carousel__container{
+    width: 100% !important;
+img{
+    background-size:cover;
+    width:100%;
+    text-align: center;
+}
+}
+.el-carousel__arrow{
+    background: #330000;
+}
+.search{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #eeeeee;
+    margin: 0 auto;
+    color: #484848;
+    &_content{
+        height: 45px;
+        margin: 0 auto;
+    }
+}
+.search a:hover{
+    color:#2a9e21;
+}
+.search_content{
+    margin-left: 20px;
+}
+.search_input{
+    float: right;
+    padding-top: 13px;
+    margin-top: -70px;
+    li{
+        float:right;
+        list-style: none;
+    }
+}
+.search_icon{
+    position: relative;
+    top:5px;
+    right: 25px;
+}
+#bg{
+    width: 100%;
+    height: auto;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021162025_1739548070.jpg) repeat;
+    margin: 0 auto;
+}
+.content_title{
+    width: 1200px;
+    font-size: 39px;
+    line-height: 60px;
+    color: #2a9e21;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content_img{
+    height: 22px;
+    width: 7px;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021161902_504773367.jpg) no-repeat;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+.content_title2{
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.content_title3{
+    width: 512px;
+    height: 58px;
+    border: 1px solid #37f129;
+    line-height: 58px;
+    font-size: 16px;
+    color: #32b228;
+    text-align: center;
+    margin: 0 auto;
+}
+.trouble{
+    width: 1200px;
+    height: 180px;
+    margin: 60px auto;
+    // position: relative;
+    // left: -50px;
+    // margin-left: auto;
+    // margin-right: 10px;
+    padding-left: -50px;
+    li{
+        float: left;
+        text-align: center;
+        width: 180px;
+        font-size: 18px;
+        list-style: none;
+    }
+    a{
+        width: 180px;
+        height: 85px;
+        font-size: 18px;
+        color: #fff;
+        line-height: 80px;
+        padding-top: 95px;
+        display: block;
+        line-height: 30px;
+    }
+}
+.trouble_1{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021163052_2083594947.png);
+    margin: 0 auto;
+}
+.trouble_2{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021180131_543665099.png);
+    margin: 0 auto;
+    margin-left: 74px;
+}
+.trouble_3{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161026/20161026092405_1240094194.png);
+    margin: 0 auto;
+    margin-left: 74px;
+}
+.trouble_4{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021180621_2064714894.png);
+    margin: 0 auto;
+    margin-left: 74px;
+}
+.trouble_5{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021180731_421687259.png);
+    margin: 0 auto;
+    margin-left: 74px;
+    position: absolute;
+    left: 1000px;
+}
+.business_left{
+    width: 230px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+    background: #eaeaea;
+}
+.business_left_title{
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    line-height: 70px;
+    background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021181127_1317588398.jpg) no-repeat center;
+}
+.business_left_content{
+    width: 230px;
+    &_bg{
+        width: 200px;
+        border-top: none;
+        background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021181345_382108433.jpg);
+        padding-left: 50px;
+    }
+}
+.business_right{
+    width: 922px;
+    float: right;
+    border-top: none;
+    margin-right: 30px;
+    &_title{
+        width: 922px;
+        height: 37px;
+        line-height: 37px;
+        padding-left: 10px;
+        background: url(http://www.junchuang888.com//uploadfile/image/20161021/20161021181436_975903500.png) no-repeat center;
+        span{
+        width: 43px;
+        font-size: 12px;
+        line-height: 37px;
+        color: #fff;
+        float: right;
+        padding-right: 5px;
+        text-align: center;
+        }
+    }
+}
+.show_business{
+    width: 266px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+}
+.business_right_content{
+    span{
+        line-height: 25px;
+    }
+    img{
+        width: 218px;
+        height: 164px;
+        border: 0;
+    }
+}
+.advantage{
+    width: 100%;
+    text-align: center;
+    height: 160px;
+    background: url(http://www.junchuang888.com/uploadfile/image/20161021/20161021182410_1890034189.jpg) no-repeat cover; 
+    margin: 0px auto;
+    margin-top: 30px;
+    img{
+        width: 100%;
+    }
+}
+.advantage_resource{
+    position: relative;
+    top: 700px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 30px;
+    &_1{
+        width: 1200px;
+        height: 221px;
+        background: url(http://www.junchuang888.com/uploadfile/image/20161110/20161110142615_1261273297.png);
+        margin: 0 auto;
+        &_left{
+            float: left;
+            margin-top: -530px;
+            &_word1{
+                font-size: 26px;
+                line-height: 40px;
+                color: #2a9e21;
+                margin-top: 48px;
+            }
+            &_word2{
+                font-size: 15px;
+                color: #b8b8b8;
+                text-transform: uppercase;
+            }
+            &_word3{
+                font-size: 14px;
+                line-height: 20px;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+    }
+    &_2{
+        width: 1200px;
+        height: 217px;
+        background: url(http://www.junchuang888.com//uploadfile/image/20161110/20161110142615_1055100519.png);
+        margin: 0 auto;
+        &_right{
+            float: right;
+            margin-top: -310px;
+            &_word1{
+                font-size: 26px;
+                line-height: 40px;
+                color: #2a9e21;
+                margin-top: 48px;
+            }
+            &_word2{
+                font-size: 15px;
+                color: #b8b8b8;
+                text-transform: uppercase;
+            }
+            &_word3{
+                font-size: 14px;
+                line-height: 20px;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+    }
+    &_3{
+        width: 1200px;
+        height: 216px;
+        background: url(http://www.junchuang888.com/uploadfile/image/20161110/20161110142618_227573371.png);
+        margin: 0 auto;
+        &_left{
+            float: left;
+            margin-top: -95px;
+            &_word1{
+                font-size: 26px;
+                line-height: 40px;
+                color: #2a9e21;
+                margin-top: 48px;
+            }
+            &_word2{
+                font-size: 15px;
+                color: #b8b8b8;
+                text-transform: uppercase;
+            }
+            &_word3{
+                font-size: 14px;
+                line-height: 20px;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+    }
+    &_4{
+        width: 1200px;
+        height: 222px;
+        background: url(http://www.junchuang888.com/uploadfile/image/20161110/20161110142617_1072748783.png);
+        margin: 0 auto;
+        &_right{
+            float: right;
+            &_word1{
+                font-size: 26px;
+                line-height: 40px;
+                color: #2a9e21;
+                margin-top: 48px;
+            }
+            &_word2{
+                font-size: 15px;
+                color: #b8b8b8;
+                text-transform: uppercase;
+            }
+            &_word3{
+                font-size: 14px;
+                line-height: 20px;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.introduction_title{
+    position: absolute;
+    top: 2900px;
+    width: 100%;
+    height: 94px;
+    background: url(http://www.junchuang888.com/uploadfile/image/20161021/20161021194601_1858485035.png);
+    margin: 0 auto;
+}
+.introduction_content{
+    position: absolute;
+    top: 2990px;
+    width: 100%;
+    height: auto;
+    background: #efefef;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &_bg{
+        width: 1200px;
+        height: 485px;
+        background: url(http://www.junchuang888.com//uploadfile/image/20161110/20161110174358_1736811132.jpg);
+        margin: 0 auto;
+        &_left{
+            float: left;
+            &_reborn{
+                font-size: 36px;
+                font-weight: bold;
+                color: #2a9e21;
+                padding-left: 70px;
+                line-height: 80px;
+            }
+            &_phone{
+                float: right;
+                line-height: 70px;
+                font-size: 16px;
+                color: #fff;
+                padding-right: 90px;
+                margin-top: -78px;
+            }
+            &_slogan{
+                width: 720px;
+                font-size: 14px;
+                line-height: 30px;
+                margin-top: 40px;
+                margin-left: 60px;
+            }
+        }
+        &_right{
+            float: right;
+        }
+    }
+    &_footer{
+        width: 1200px;
+        height: 84px;
+        margin: 0 auto;
+    }
+}
+.recycling_site{
+    width: 100%;
+    height: 82px;
+    padding-top: 50px;
+    background: url(http://www.junchuang888.com/uploadfile/image/20161021/20161021201501_1437465922.png) no-repeat center;
+    margin: 0 auto;
+}
+.row_carousel{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right: 100px;
+    li{
+        float: left;
+    }
+    &_content1{
+        width: 41px;
+        margin-right: 20px;
+    }
+    &_content2{
+        width: 1078px;
+        img{
+            border: 1px solid #b0b0b0;
+            padding: 3px;
+            width: 208px;
+            height: 158px;
+        }
+    }
+    &_content3{
+        width: 41px;
+        // text-align: right;
+        float: right !important;
+        margin-right: -40px;
+    }
+}
+
+.news_question_bg{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    &_left{
+        width: 760px;
+        float: left;
+        &_title{
+            height: 26px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            &_content1{
+                float: left;
+                width: 25px;
+                height: 26px;
+                background: url(http://www.junchuang888.com/uploadfile/image/20161021/20161021203025_1621957342.png) no-repeat;
+            }
+            &_content2{
+                float: left;
+                line-height: 26px;
+                font-size: 18px;
+                color: #2a9e21;
+                padding-left: 5px;
+                font-weight: bold;   
+            }
+            &_content3{
+                float: left;
+                line-height: 26px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            &_content4{
+                float: left;
+                line-height: 26px;
+                font-size: 16px;
+                text-transform: uppercase;
+                padding-left: 5px;
+                color: #888;
+            }
+            &_content5{
+                float: right;
+                line-height: 26px;
+                font-size: 12px;   
+            }
+        }
+        &_introduction{
+            width: 760px;
+            float: left;
+            .n1{
+                width: 320px;
+                float: left;
+                margin-left: -65px;
+            }
+            .n2{
+                float: right;
+                width: 420px;
+                line-height: 25px;
+                color: #646363;
+            }
+        }
+        &_handle{
+            width: 760px;
+            &_left{
+                width: 370px;
+                float: left;
+            }
+            &_right{
+                float: right;
+            }
+            &_content{
+                width: 370px;
+                background: #ddd;
+                height: 38px;
+                margin-top: 10px;
+                &_h1{
+                    width: 38px;
+                    line-height: 38px;
+                    float: left;
+                    font-size: 18px;
+                    text-align: center;
+                }
+                &_h2{
+                    float: left;
+                    margin-left: 1px;
+                    margin-top: 1px;
+                    width: 320px;
+                    height: 36px;
+                    background: #fff;
+                    line-height: 36px;
+                    padding-left: 10px;
+                }
+                &_h1:hover{
+                    color: #2b9e21;
+                }
+                &_h2:hover{
+                    color: #2b9e21;
+                }
+            }   
+        }
+    }
+    &_right{
+        width: 400px;
+        float: right;
+        &_title{
+            height: 26px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            &_content1{
+                float: left;
+                width: 25px;
+                height: 26px;
+                background: url(http://www.junchuang888.com/uploadfile/image/20161021/20161021203025_1621957342.png) no-repeat;
+            }
+            &_content2{
+                float: left;
+                line-height: 26px;
+                font-size: 18px;
+                color: #2a9e21;
+                padding-left: 5px;
+                font-weight: bold;
+            }
+            &_content3{
+                float: left;
+                line-height: 26px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            &_content4{
+                float: left;
+                line-height: 26px;
+                font-size: 16px;
+                text-transform: uppercase;
+                padding-left: 5px;
+                color: #888;
+            }
+            &_content5{
+                float: right;
+                line-height: 26px;
+                font-size: 12px;
+            }
+        }
+        &_content{
+            width: 400px;
+            &_1{
+                width: 370px;
+                background: #ffffff;
+                margin-top: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-bottom: 20px;
+                padding-bottom: 8px;
+                span{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #2a9e21;
+                    line-height: 46px;
+                }
+                font{
+                    font-size: 13px;
+                    line-height: 28px;
+                }
+            }
+            &_2{
+                &_run{
+                    &_tag{
+                        width:100%; 
+                        height:auto;
+                        ul{
+                            margin:0px;
+                            padding:0px;
+                            list-style-type:none;
+                        }
+                        li{
+                            list-style:none;
+                            margin:0px;
+                            line-height:36px;
+                            float:left; 
+                            width:370px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.link{
+    width: 1200px;
+    // margin: 0 auto;
+    // height: 73px;
+    // border: 1px solid #ddd;
+    background: #fff;
+    margin-top: 50px;
+    &_left{
+        position: relative;
+        top: 76.3px;
+        right: 788px;
+        width: 126px;
+        float: left;
+        height: 76px;
+        background: url(http://www.junchuang888.com//uploadfile/image/20161022/20161022110531_1311464659.png) no-repeat;
+    }
+    &_right{
+        width: 1072px;
+        float: right;
+        background: #fff;
+        line-height: 76px;
+        &_content{
+            width:872px;
+            height:auto;
+            ul{
+                margin:0px;
+                padding:0px;
+                list-style-type:none;
+            }
+            li{
+                list-style:none;
+                margin:0px;  
+                padding-right:7px;
+                line-height:72px;
+                float:left;
+            }
+            li a{
+                color:#222;
+                word-break:break-all;
+            }
+            li img{
+                border:0px;
+            }
+        }
+    }
+}
